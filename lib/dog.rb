@@ -2,7 +2,7 @@ class Dog
   
   def initialize(name, breed)
     @name = name
-      if breed = !NIL
+      if breed == NIL
       @breed = breed
       else 
       @breed = "Mutt"
